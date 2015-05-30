@@ -4,7 +4,7 @@
       "Joel Berger <joel.a.berger@gmail.com>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "Module::Build version 0.4, CPAN::Meta::Converter version 2.120921",
+   "generated_by" : "Module::Build version 0.4211",
    "license" : [
       "perl_5"
    ],
@@ -26,6 +26,7 @@
       },
       "configure" : {
          "requires" : {
+            "Alien::GSL" : "1.00",
             "Module::Build" : "0.38"
          }
       },
@@ -39,10 +40,10 @@
    "provides" : {
       "PerlGSL::DiffEq" : {
          "file" : "lib/PerlGSL/DiffEq.pm",
-         "version" : "0.08"
+         "version" : "0.080_001"
       }
    },
-   "release_status" : "stable",
+   "release_status" : "testing",
    "resources" : {
       "bugtracker" : {
          "web" : "http://github.com/jberger/PerlGSL-DiffEq/issues"
@@ -54,5 +55,5 @@
          "url" : "http://github.com/jberger/PerlGSL-DiffEq"
       }
    },
-   "version" : "0.08"
+   "version" : "0.080_001"
 }
